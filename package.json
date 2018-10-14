@@ -1,17 +1,17 @@
 {
   "name": "scss-pug-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sass Pug Starter Template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
-    "cssnano": "^4.1.0",
+    "cssnano": "^4.1.4",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^8.0.0",
