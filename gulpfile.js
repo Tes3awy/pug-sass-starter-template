@@ -49,20 +49,20 @@ gulp.task('minify:js', () => {
 });
 
 // Copy JS Files to dist/assets/js
-// gulp.task('copy-js', () => {
-//     return gulp.src([
-//         'node_modules'
-//     ])
-//     .pipe(gulp.dest('dist/assets/js'));
-// });
+gulp.task('copy-js', () => {
+    return gulp.src([
+        'node_modules'
+    ])
+    .pipe(gulp.dest('dist/assets/js'));
+});
 
 // Copy CSS Files to dist/assets/css
-// gulp.task('copy-css', () => {
-//     return gulp.src([
-//         'node_modules'
-//     ])
-//     .pipe(gulp.dest('dist/assets/css'));
-// });
+gulp.task('copy-css', () => {
+    return gulp.src([
+        'node_modules'
+    ])
+    .pipe(gulp.dest('dist/assets/css'));
+});
 
 // Watch Tasks
 gulp.task('watch:sass', () => {
@@ -70,7 +70,7 @@ gulp.task('watch:sass', () => {
 });
 
 gulp.task('watch:pug', () => {
-    gulp.watch('src/pug/**/*.pug', ['complie:pug']);
+    gulp.watch('src/pug/**/*.pug', ['compile:pug']);
 });
 
 gulp.task('watch:js', () => {

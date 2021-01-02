@@ -1,23 +1,22 @@
 {
   "name": "scss-pug-template",
-  "version": "1.0.0",
-  "description": "Sass Pug Starter Template",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Pug-Sass Starter Kit",
+  "main": "app.js",
   "scripts": {
     "start": "gulp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Osama Abbas <oabbas2512@gmail.com> (https://tes3awy.netlify.app)",
+  "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "cssnano": "^4.1.4",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
     "gulp": "^3.9.1",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.1"
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
